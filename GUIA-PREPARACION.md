@@ -1,46 +1,43 @@
 # 🛠️ Prepárate para el Hackathon de Codex
 
-¡Hola! Para que el jueves dediquemos el tiempo a **construir** y no a instalar cosas, haz esto antes de venir. Son unos 20–30 minutos.
+¡Hola! Para que el jueves dediquemos el tiempo a **construir**, haz esto antes de venir. Solo tienes que instalar Codex y pegarle un mensaje: **Codex se encarga del resto**.
 
 ---
 
-## 1. Crea tus cuentas (5 min)
+## 1. Instala Codex
 
-- [ ] **GitHub**: [github.com/signup](https://github.com/signup). Aquí guardarás tu código.
-- [ ] **Vercel**: [vercel.com/signup](https://vercel.com/signup). Regístrate **con tu cuenta de GitHub** (botón "Continue with GitHub"). Aquí publicarás tu web.
-- [ ] **ChatGPT**: [chatgpt.com](https://chatgpt.com). Codex funciona con tu cuenta de ChatGPT. Con un plan de pago (Plus o superior) tendrás mucho más margen de uso.
+1. Descarga la app de Codex en **[openai.com/codex](https://openai.com/codex)**.
+2. Ábrela e inicia sesión con tu cuenta de **ChatGPT**. Si no tienes cuenta, créala en [chatgpt.com](https://chatgpt.com).
+3. Crea una carpeta nueva y vacía (por ejemplo `hackathon` en tu Escritorio) y ábrela en Codex.
 
-## 2. Instala las herramientas (15 min)
+## 2. Pega este mensaje en Codex
 
-- [ ] **Cursor**: el editor de código. Descárgalo en [cursor.com](https://cursor.com) e instálalo.
-- [ ] **Codex**: elige una opción (o las dos):
-  - **App de Codex**: descárgala en [openai.com/codex](https://openai.com/codex) e inicia sesión con tu cuenta de ChatGPT.
-  - **Extensión dentro de Cursor**: en Cursor, abre Extensiones (`Cmd/Ctrl + Shift + X`), busca **"Codex"** (de OpenAI), instálala e inicia sesión.
-- [ ] **Git**:
-  - **Mac**: abre la Terminal y ejecuta `xcode-select --install`.
-  - **Windows**: descárgalo en [git-scm.com](https://git-scm.com/download/win) y deja todas las opciones por defecto.
-- [ ] **Node.js**: descarga la versión **LTS** en [nodejs.org](https://nodejs.org) e instálala.
-
-## 3. Comprueba que todo funciona (2 min)
-
-Abre una terminal (en Cursor: menú *Terminal → New Terminal*) y escribe:
+Copia el texto entero, pégalo en Codex y sigue lo que te diga:
 
 ```
-git --version
-node -v
+Hola Codex. El jueves voy a un hackathon de Codex y quiero dejar mi ordenador listo para construir y publicar una web. Guíame paso a paso, de forma sencilla: no sé programar.
+
+1. Detecta mi sistema operativo y comprueba qué tengo ya instalado.
+2. Instala lo que falte: Git, Node.js (versión LTS), la CLI de GitHub (gh) y la CLI de Vercel. Explícame en una frase qué es cada cosa antes de instalarla.
+3. Ayúdame a crear una cuenta en GitHub si no tengo, y a iniciar sesión con `gh auth login`.
+4. Ayúdame a crear una cuenta en Vercel usando mi GitHub, y a iniciar sesión con `vercel login`.
+5. Para comprobar que todo funciona: crea en esta carpeta una página web sencilla que diga "Hola, estoy listo para el hackathon 🚀", súbela a un repositorio nuevo en mi GitHub y publícala en Vercel.
+6. Al final, dame la URL pública de mi web y un resumen de lo que hemos instalado.
+
+Si algo me pide contraseña o abrir el navegador, dime exactamente qué hacer. Si algo falla, arréglalo tú o explícame la alternativa.
 ```
 
-Si los dos comandos te devuelven un número de versión, **ya está todo listo**. ✅
-Si alguno da error, no te agobies: ven 15 minutos antes y te echamos una mano.
+✅ **Si al final tienes una URL que abre tu página, ya estás listo.**
+Si algo se atasca, no te agobies: ven 15 minutos antes y lo resolvemos juntos.
 
-## 4. Opcional (pero recomendado)
+## 3. Opcional
 
-- 💡 **Piensa una idea**: algo pequeño que te gustaría tener funcionando al final del día (una web para tu proyecto, una herramienta que te ahorre tiempo, un juego...).
-- 🌐 **Dominio**: no hace falta comprarlo. Vercel te da una URL gratis (`tu-app.vercel.app`). Si quieres uno propio, lo vemos allí.
+- 💡 **Piensa una idea**: algo pequeño que te gustaría tener funcionando al final del día.
+- 🌐 **Dominio**: no hace falta comprarlo. Vercel te da una URL gratis (`tu-app.vercel.app`).
 
 ## Qué traer
 
-- 💻 Portátil (Mac, Windows o Linux)
+- 💻 Portátil con Codex instalado
 - 🔌 Cargador. ¡Va a ser un día largo!
 - 🎧 Auriculares, si te gusta concentrarte con música
 
