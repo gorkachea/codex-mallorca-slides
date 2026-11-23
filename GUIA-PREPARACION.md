@@ -20,7 +20,7 @@ Hola Codex. El jueves voy a un hackathon de Codex y quiero dejar mi ordenador li
 4. Al final, confírmame que todo está listo.
 ```
 
-Si algo se atasca, ven 15 minutos antes y lo resolvemos.
+Si algo se te atasca, lo resolvemos el día del evento.
 
 ## Qué traer
 
