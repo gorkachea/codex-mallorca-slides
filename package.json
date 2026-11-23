@@ -1,0 +1,22 @@
+{
+  "name": "hackathon-intro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --output intro.pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.2.20",
+    "@iconify-json/ph": "^1.2.2",
+    "@slidev/cli": "^53.1.0",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.65.1"
+  },
+  "private": true
+}
