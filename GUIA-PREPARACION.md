@@ -26,4 +26,4 @@ Trae **portátil y cargador**: el taller es práctico. Al hacer check-in recibir
 El miércoles te mandamos el programa con todos los detalles.
 
 Un saludo,
-Juan y Gorka
+El equipo de Codex Community Mallorca
