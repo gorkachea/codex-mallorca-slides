@@ -36,11 +36,13 @@ que hacen falta para que lo que construyáis hoy lo pueda abrir cualquiera desde
       <logos-github-icon class="text-8xl" />
       <span>GitHub</span>
       <small>código</small>
+      <em class="tag free">gratis</em>
     </div>
     <div class="piece" v-click>
       <logos-vercel-icon class="text-8xl" />
       <span>Vercel</span>
       <small>servidor</small>
+      <em class="tag free">gratis</em>
     </div>
     <div class="piece" v-click>
       <ph-signpost-duotone class="text-8xl accent" />
@@ -68,10 +70,10 @@ Analogía que vamos a usar: un restaurante. Receta, cocina, dirección.
       <code>git push</code>
       <ph-arrow-right-bold class="text-4xl muted" />
     </div>
-    <div class="labeled" v-click="1"><logos-github-icon class="text-9xl" /><span>GitHub</span></div>
+    <div class="labeled" v-click="1"><logos-github-icon class="text-9xl" /><span>GitHub</span><em class="tag free">gratis</em></div>
   </div>
 
-  <h2 class="mt-20">GitHub: donde <em>vive</em> el código</h2>
+  <h2 class="mt-24">GitHub: donde <em>vive</em> el código</h2>
 
   <div class="row gap-16 mt-10 text-4xl muted">
     <div class="chip" v-click><ph-clock-counter-clockwise-duotone /> historial</div>
@@ -92,14 +94,14 @@ Importante: tener el código en GitHub NO significa que la web esté online.
 
 <div class="center-stack">
   <div class="row gap-10 text-7xl">
-    <div class="labeled"><logos-github-icon class="text-8xl" /><span>GitHub</span></div>
+    <div class="labeled"><logos-github-icon class="text-8xl" /><span>GitHub</span><em class="tag free">gratis</em></div>
     <ph-arrow-right-bold class="text-4xl muted" />
-    <div class="labeled" v-click><logos-vercel-icon class="text-8xl" /><span>Vercel</span></div>
+    <div class="labeled" v-click><logos-vercel-icon class="text-8xl" /><span>Vercel</span><em class="tag free">gratis</em></div>
     <ph-arrow-right-bold class="text-4xl muted" v-click />
     <ph-globe-hemisphere-west-duotone class="accent text-8xl" v-click="'+0'" />
   </div>
 
-  <h2 class="mt-20">Desplegar: donde <em>corre</em> el código</h2>
+  <h2 class="mt-24">Desplegar: donde <em>corre</em> el código</h2>
 
   <div class="url mt-8" v-click>https://mi-app.vercel.app</div>
 

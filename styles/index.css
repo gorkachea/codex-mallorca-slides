@@ -142,3 +142,6 @@
 
 .piece { position: relative; }
 .piece .tag { position: absolute; top: calc(100% + 0.9rem); }
+
+.tag.free { color: var(--accent); border-color: var(--accent); border-style: solid; }
+.labeled .tag { position: absolute; top: calc(100% + 2.4rem); }
