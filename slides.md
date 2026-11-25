@@ -15,7 +15,12 @@ fonts:
     <ph-globe-hemisphere-west-duotone class="accent" v-motion :initial="{ y: 40, opacity: 0 }" :enter="{ y: 0, opacity: 1, transition: { delay: 600 } }" />
   </div>
   <h1 class="mt-14">De idea a internet</h1>
-  <p class="muted">Hackathon Codex</p>
+  <div class="row gap-6 mt-10 brands">
+    <img src="/codex.png" alt="Codex" class="h-12" />
+    <span class="muted text-xl">×</span>
+    <img src="/ailoveu.png" alt="AI Love You" class="h-14" />
+  </div>
+  <p class="muted mt-4">Codex Community Mallorca · AI Love You</p>
 </div>
 
 <!--
