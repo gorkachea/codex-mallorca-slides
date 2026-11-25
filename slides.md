@@ -105,7 +105,7 @@ Importante: tener el código en GitHub NO significa que la web esté online.
 
   <div class="row gap-8 mt-12 text-3xl faint" v-click>
     <div class="labeled sm"><logos-openai-icon /><span>Codex Sites</span></div>
-    <div class="labeled sm"><logos-netlify-icon /><span>Netlify</span></div>
+    <div class="labeled sm"><logos-aws /><span>AWS</span></div>
     <div class="labeled sm"><logos-cloudflare-icon /><span>Cloudflare</span></div>
     <div class="labeled sm"><logos-railway /><span>Railway</span></div>
   </div>
@@ -115,7 +115,7 @@ Importante: tener el código en GitHub NO significa que la web esté online.
 Desplegar = abrir la COCINA al público. Un ordenador encendido 24/7 que sirve tu web.
 [click] Vercel se conecta a tu GitHub. Cada vez que haces push, publica la nueva versión solo.
 [click] Y te da una URL gratis al momento.
-[click] Hay alternativas: Codex Sites (publicas directamente desde Codex), Netlify, Cloudflare o Railway. Hoy usamos Vercel.
+[click] Hay alternativas: Codex Sites (publicas directamente desde Codex), AWS, Cloudflare o Railway. Hoy usamos Vercel.
 GitHub guarda. Vercel sirve.
 -->
 
