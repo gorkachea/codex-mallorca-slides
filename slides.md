@@ -41,6 +41,7 @@ que hacen falta para que lo que construyáis hoy lo pueda abrir cualquiera desde
       <ph-signpost-duotone class="text-8xl accent" />
       <span>Dominio</span>
       <small>dirección</small>
+      <em class="tag">opcional</em>
     </div>
   </div>
 </div>
@@ -115,6 +116,7 @@ GitHub guarda. Vercel sirve.
 ---
 
 <div class="center-stack">
+  <em class="tag mb-10">opcional</em>
   <div class="row gap-8">
     <div class="url" v-mark.strike-through.red="1">mi-app.vercel.app</div>
     <ph-arrow-right-bold class="text-4xl muted" v-click="1" />
@@ -156,7 +158,7 @@ Para hoy NO hace falta: la URL gratis de Vercel es suficiente. Es para cuando el
     <ph-arrow-right-bold class="text-3xl muted" v-click="2" />
     <div class="labeled" v-click><logos-vercel-icon /><span>Vercel</span></div>
     <ph-arrow-right-bold class="text-3xl muted" v-click="3" />
-    <span class="url small" v-click>miapp.com</span>
+    <div class="labeled sm" v-click><span class="url small dashed">miapp.com</span><span>opcional</span></div>
     <ph-arrow-right-bold class="text-3xl muted" v-click="4" />
     <ph-users-three-duotone class="accent" v-click />
   </div>
