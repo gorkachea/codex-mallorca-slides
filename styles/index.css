@@ -100,3 +100,27 @@
   border-color: var(--accent);
   color: white;
 }
+
+.piece small {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-top: -0.9rem;
+}
+
+.labeled {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.labeled span {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  white-space: nowrap;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.labeled.sm span { top: calc(100% + 0.3rem); font-size: 0.8rem; color: var(--muted); font-weight: 500; }

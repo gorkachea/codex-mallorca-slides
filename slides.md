@@ -29,15 +29,18 @@ que hacen falta para que lo que construyáis hoy lo pueda abrir cualquiera desde
   <div class="row gap-24">
     <div class="piece" v-click>
       <logos-github-icon class="text-8xl" />
-      <span>Código</span>
+      <span>GitHub</span>
+      <small>código</small>
     </div>
     <div class="piece" v-click>
       <logos-vercel-icon class="text-8xl" />
-      <span>Servidor</span>
+      <span>Vercel</span>
+      <small>servidor</small>
     </div>
     <div class="piece" v-click>
       <ph-signpost-duotone class="text-8xl accent" />
-      <span>Dirección</span>
+      <span>Dominio</span>
+      <small>dirección</small>
     </div>
   </div>
 </div>
@@ -59,10 +62,10 @@ Analogía que vamos a usar: un restaurante. Receta, cocina, dirección.
       <code>git push</code>
       <ph-arrow-right-bold class="text-4xl muted" />
     </div>
-    <logos-github-icon class="text-9xl" v-click="1" />
+    <div class="labeled" v-click="1"><logos-github-icon class="text-9xl" /><span>GitHub</span></div>
   </div>
 
-  <h2 class="mt-14">GitHub: donde <em>vive</em> el código</h2>
+  <h2 class="mt-20">GitHub: donde <em>vive</em> el código</h2>
 
   <div class="row gap-16 mt-10 text-4xl muted">
     <div class="chip" v-click><ph-clock-counter-clockwise-duotone /> historial</div>
@@ -83,19 +86,21 @@ Importante: tener el código en GitHub NO significa que la web esté online.
 
 <div class="center-stack">
   <div class="row gap-10 text-7xl">
-    <logos-github-icon class="text-8xl" />
+    <div class="labeled"><logos-github-icon class="text-8xl" /><span>GitHub</span></div>
     <ph-arrow-right-bold class="text-4xl muted" />
-    <logos-vercel-icon class="text-8xl" v-click />
+    <div class="labeled" v-click><logos-vercel-icon class="text-8xl" /><span>Vercel</span></div>
     <ph-arrow-right-bold class="text-4xl muted" v-click />
     <ph-globe-hemisphere-west-duotone class="accent text-8xl" v-click="'+0'" />
   </div>
 
-  <h2 class="mt-14">Desplegar: donde <em>corre</em> el código</h2>
+  <h2 class="mt-20">Desplegar: donde <em>corre</em> el código</h2>
 
   <div class="url mt-8" v-click>https://mi-app.vercel.app</div>
 
   <div class="row gap-8 mt-12 text-3xl faint" v-click>
-    <logos-netlify-icon /> <logos-cloudflare-icon /> <logos-railway />
+    <div class="labeled sm"><logos-netlify-icon /><span>Netlify</span></div>
+    <div class="labeled sm"><logos-cloudflare-icon /><span>Cloudflare</span></div>
+    <div class="labeled sm"><logos-railway /><span>Railway</span></div>
   </div>
 </div>
 
@@ -123,7 +128,7 @@ GitHub guarda. Vercel sirve.
     <ph-arrow-right-bold />
     <ph-address-book-duotone class="text-5xl" />
     <ph-arrow-right-bold />
-    <logos-vercel-icon />
+    <logos-vercel-icon /> <span>Vercel</span>
   </div>
 
   <div class="row gap-12 mt-12 text-3xl" v-click>
@@ -147,9 +152,9 @@ Para hoy NO hace falta: la URL gratis de Vercel es suficiente. Es para cuando el
   <div class="row gap-6 text-6xl">
     <ph-laptop-duotone v-click />
     <ph-arrow-right-bold class="text-3xl muted" v-click="1" />
-    <logos-github-icon v-click />
+    <div class="labeled" v-click><logos-github-icon /><span>GitHub</span></div>
     <ph-arrow-right-bold class="text-3xl muted" v-click="2" />
-    <logos-vercel-icon v-click />
+    <div class="labeled" v-click><logos-vercel-icon /><span>Vercel</span></div>
     <ph-arrow-right-bold class="text-3xl muted" v-click="3" />
     <span class="url small" v-click>miapp.com</span>
     <ph-arrow-right-bold class="text-3xl muted" v-click="4" />
